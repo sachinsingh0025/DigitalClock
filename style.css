@@ -1,0 +1,66 @@
+ body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('404.webp') no-repeat center center/cover;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  backdrop-filter: brightness(0.85);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.clock {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box span {
+  font-size: 2.5rem;
+  display: block;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 0.9rem;
+  margin: 5px 0 0;
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+.ampm {
+  font-size: 1.2rem;
+  background: #00cc66;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px #000;
+} 
+
+
+
